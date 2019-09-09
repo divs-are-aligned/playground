@@ -76,7 +76,7 @@ class LinkedList {
     return !this.size; // are we empty?????
   }
 
-  toString() { // what are we yelling, just tell me the contents of the linked list
+  toString() { // why are we yelling, just tell me the contents of the linked list
     const result = [];
     let curr = this.head;
 
@@ -86,6 +86,6 @@ class LinkedList {
       curr = curr.next;
     }
 
-    return result.join("->"); // see? we just join with symbol to present the pointer
+    return result.join("->"); // see? we just join with symbol to represent the pointer
   }
 }
